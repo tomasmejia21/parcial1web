@@ -1,3 +1,7 @@
 h3{
-    color: red;
+    color: rgb(97, 97, 97);
+}
+
+img{
+    resize: both;
 }

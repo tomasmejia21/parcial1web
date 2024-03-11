@@ -30,17 +30,54 @@
       <table class="table table-dark table-striped">
         <thead>
             <tr>
+                <th scope="col">Tipo Arquitectura</th>
                 <th scope="col">Facilidad Implementacion</th>
                 <th scope="col">Facilidad Mantenimiento</th>
                 <th scope="col">Tolerancia a Fallos</th>
                 <th scope="col">Facilidad de Despliegue</th>
+                <th scope="col">Nivel Acoplamiento</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row">Arquitectura Monolitica</th>
+                <th scope="row">Arquitectura Monolitica</td>
+                <td>Faciles de implementar</td>
+                <td>Faciles de realizar mantenimiento</td>
+                <td>Baja tolerancia a fallos</td>
+                <td>Facil para desplegarla</td>
+                <td>Alto nivel de acoplamiento</td>
+            </tr>
+            <tr>
+                <th scope="row">Arquitectura Back-End + Front-End</th>
+                <th>No tan faciles de implementar</th>
+                <th>Faciles de realizar mantenimiento</th>
+                <th>Baja tolerancia a fallos</th>
+                <th>No tan facil de desplegarla</th>
+                <th>Alto nivel de acoplamiento</th>
+            </tr>
+            <tr>
+                <th scope="row">Arquitectura Orientada a Servicios</th>
+                <th>No tan facil de implementar</th>
+                <th>Complejos para realizar mantenimiento por diversidad de tecnologias</th>
+                <th>Baja tolerancia a fallos</th>
+                <th>No tan facil de desplegarla</th>
+                <th>Bajo nivel de acoplamiento</th>
+            </tr>
+            <tr>
+                <th scope="row">Arquitectura Orientada a Microservicios</th>
                 <th>Faciles de implementar</th>
-                <th>Facilidad de mantenimiento</th>
+                <th>Complejos para realizar mantenimiento por diversidad de tecnologias</th>
+                <th>Baja tolerancia a fallos</th>
+                <th>No tan facil de desplegar</th>
+                <th>Bajo nivel de acoplamiento</th>
+            </tr>
+            <tr>
+                <th scope="row">Arquitectura Serverless</th>
+                <th>Faciles de implementar</th>
+                <th>Faciles para realizar mantenimiento</th>
+                <th>Baja tolerancia a fallos</th>
+                <th>Facilidad media-alta de desplegar</th>
+                <th>Nivel de acoplamiento medio</th>
             </tr>
         </tbody>
       </table>
